@@ -13,7 +13,7 @@ int main(int argc, const char *argv[]){
 	 		conversao[i]=argv[1][i];	
 	 }
 
-	if(argc>4){
+	if(argc!=4){
 		printf("Muitos parametros digitados\n");
 		exit(1);
 	}
