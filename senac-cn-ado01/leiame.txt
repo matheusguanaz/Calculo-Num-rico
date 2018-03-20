@@ -1,0 +1,1 @@
+﻿O algorítmo recebe uma string de números,  joga essa string num vetor de inteiros através da tabela ASCII, converte o número em uma base qualquer para a base 10, depois usando esse valor em base 10 transforma-se na base escolhida pelo usuário.
