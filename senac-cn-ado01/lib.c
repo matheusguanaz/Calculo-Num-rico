@@ -65,6 +65,7 @@ void transformar_para_base_desejada(int valor, int base_desejada){
 	for(j=k; j>=0;j--){
 		printf("%c", resposta_final[j]);
 	}
+	printf("\n");
 
 
 	free(resto);
