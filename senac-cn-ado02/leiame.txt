@@ -1,0 +1,1 @@
+﻿O programa cria 2 senóides utilizando série de taylor, plotando o gráfico em duas imagens correspondentes a cada uma das senóides. Para a criação do gráfico foi utilizado o gnuplot juntamente a função do popen da biblioteca stdio do C.
