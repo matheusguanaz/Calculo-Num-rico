@@ -1,0 +1,1 @@
+﻿o algorítmo itera a cada 0.001 até 20, sendo essa iteração feita no expoente do valor a ser utilizado como "n", para a plotagem do gráfico os algorítmo escreve num txt que ele cria e ele mesmo deleta ao fim da execução.
