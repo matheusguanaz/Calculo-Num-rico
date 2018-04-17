@@ -1,0 +1,29 @@
+PROGRAM BISSEC
+	INTEGER :: i
+    CHARACTER(len=32) :: arg
+    REAL :: A, B, RESULTADOA=0, RESULTADOB=0, PRECISAO, X=1, PRECISAO1,j
+    CALL getarg(1, arg)
+    read (arg,*)j
+    PRECISAO = 0.001
+    PRECISAO1 = -0.001
+    A=SQRT(J) -1
+    B=SQRT(J) +1
+    
+    DO WHILE (X>PRECISAO)
+		RESULTADOA= A*A
+		IF (RESULTADOA - j < PRECISAO1) THEN
+			A=(A + B)/2
+		ELSE
+			WRITE(*,*)A
+			EXIT
+		END IF
+		RESULTADOB= B*B
+		IF (RESULTADOB - j  > PRECISAO) THEN
+			B=(A+B)/2
+		ELSE
+			WRITE(*,*)B
+			EXIT
+		END IF			  
+    END DO
+    
+END PROGRAM

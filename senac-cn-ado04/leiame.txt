@@ -1,0 +1,1 @@
+Para que o método conseguisse convergir tive que ajustar os chutes iniciais para números próximos ao da verdadeira raiz
